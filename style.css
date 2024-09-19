@@ -1,0 +1,56 @@
+body, html, *{
+    margin: 0;
+    padding: 0;
+    text-align: center;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+
+.tables {
+    margin: 20px auto;
+    position: relative;
+    height: 300px;
+    width: 500px;
+}
+
+.tables h1 {
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+}
+
+table {
+    border: 2px solid black;
+    width: 100%;
+    background: hsla(61, 81%, 88%, 1);
+    background: linear-gradient(90deg, hsla(61, 81%, 88%, 1) 0%, hsla(310, 65%, 85%, 1) 50%, hsla(7, 89%, 69%, 1) 100%);
+}
+
+td {
+    border: 1px solid black;
+}
+
+tr:hover {
+    background: hsla(39, 51%, 85%, 1);
+    background: linear-gradient(90deg, hsla(39, 51%, 85%, 1) 0%, hsla(182, 93%, 68%, 1) 50%, hsla(318, 79%, 79%, 1) 100%);
+}
+
+.table1 td {
+    padding: 20px;
+}
+
+.table2 {
+    margin: 40px 60px;
+}
+
+.table3 {
+    margin: 30px 50px 20px;
+}
+
+.table4 {
+    margin: 20px 40px 10px 30px;
+}
+
+.table5 {
+    margin-top: 15px;
+    margin-right: 30px;
+    margin-bottom: 20px;
+    margin-left: 25px;
+}
